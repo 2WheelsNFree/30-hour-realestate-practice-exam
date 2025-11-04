@@ -1,0 +1,168 @@
+/* Dark mode base */
+html, body {
+  background-color: #121212;
+  color: #f0f0f0;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Centered quiz container */
+.quiz-container {
+  width: 90%;
+  max-width: 600px;
+  padding: 2rem;
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+
+.question-input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #555;
+  background-color: #2c2c2c;
+  color: #f0f0f0;
+  margin-bottom: 1rem;
+  width: 100%;
+  max-width: 200px;
+}
+
+.start-button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.start-button:hover:enabled {
+  background-color: #45a049;
+}
+
+.start-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Question styling */
+.question-header {
+  margin-bottom: 1.5rem;
+  color: #ffffff; /* bright white for contrast */
+}
+
+
+.question-text {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #ffffff; /* brighter text */
+}
+
+.explanation {
+  background-color: #2a2a2a; /* lighter than #333 */
+  color: #f8f8f8; /* brighter explanation text */
+}
+
+.option-button {
+  background-color: #2c2c2c;
+  color: #ffffff; /* brighter button text */
+}
+
+.navigation-buttons button {
+  background-color: #444;
+  color: #ffffff; /* brighter nav button text */
+}
+
+
+/* Vertical answer layout */
+.options-grid {
+  display: flex;
+  flex-direction: column; /* stack vertically */
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Answer buttons */
+.option-button {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #2c2c2c;
+  color: #f0f0f0;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.option-button:hover:not(:disabled) {
+  background-color: #3a3a3a;
+  transform: scale(1.02);
+}
+
+.option-button.correct {
+  background-color: #4caf50;
+}
+
+.option-button.incorrect {
+  background-color: #f44336;
+}
+
+.option-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+/* Explanation box */
+.explanation {
+  background-color: #333;
+  padding: 1rem;
+  border-left: 5px solid #ffc107;
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* Navigation buttons */
+.navigation-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.navigation-buttons button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #444;
+  color: #f0f0f0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navigation-buttons button:hover {
+  background-color: #555;
+}
+
+.navigation-buttons button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
