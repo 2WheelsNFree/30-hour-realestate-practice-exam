@@ -1,0 +1,15 @@
+# Dependency folders
+node_modules/
+dist/
+build/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and environment
+*.log
+.env
+
+# VS Code settings
+.vscode/
