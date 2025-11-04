@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/2WheelsNFree/30-hour-realestate-practice-exam/static/css/main.ae2890d3.css",
-    "main.js": "/2WheelsNFree/30-hour-realestate-practice-exam/static/js/main.5cfdbaf3.js",
-    "index.html": "/2WheelsNFree/30-hour-realestate-practice-exam/index.html",
-    "main.ae2890d3.css.map": "/2WheelsNFree/30-hour-realestate-practice-exam/static/css/main.ae2890d3.css.map",
-    "main.5cfdbaf3.js.map": "/2WheelsNFree/30-hour-realestate-practice-exam/static/js/main.5cfdbaf3.js.map"
+    "main.css": "/30-hour-realestate-practice-exam/static/css/main.ae2890d3.css",
+    "main.js": "/30-hour-realestate-practice-exam/static/js/main.5cfdbaf3.js",
+    "index.html": "/30-hour-realestate-practice-exam/index.html",
+    "main.ae2890d3.css.map": "/30-hour-realestate-practice-exam/static/css/main.ae2890d3.css.map",
+    "main.5cfdbaf3.js.map": "/30-hour-realestate-practice-exam/static/js/main.5cfdbaf3.js.map"
   },
   "entrypoints": [
     "static/css/main.ae2890d3.css",
